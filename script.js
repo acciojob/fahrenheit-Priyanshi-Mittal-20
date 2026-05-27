@@ -1,7 +1,7 @@
 function toFahrenheit(celsius) {
  // Write your code here
 	let f=(celsius*1.8)+32
-	return f.toFixed(2)
+	return Number(f.toFixed(2))
 }
 
 Do not change the code below
